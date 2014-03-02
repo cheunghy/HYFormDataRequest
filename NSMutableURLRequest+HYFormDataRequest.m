@@ -109,7 +109,7 @@ NSString const * kFormDataContentTypeKey = @"kFormDataContentTypeKey";
         } else if ([obj isKindOfClass:[NSString class]]) {
             [mutableBody appendData:[obj dataUsingEncoding:NSUTF8StringEncoding]];
         }
-        [mutableBody appendData:[self ky_crlfData]];
+        //[mutableBody appendData:[self ky_crlfData]];
         
     }];
     
